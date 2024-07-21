@@ -1,0 +1,65 @@
+.greenwich-wrapper {
+  margin-bottom: 30px;
+  width: inherit;
+}
+
+.greenwich-wrapper__inner {
+  padding: 5px 27px 5px 27px;
+  width: 205px;
+  min-height: 206px;
+  text-align: center;
+}
+
+.greenwich-wrapper__timer-wrapper {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+}
+
+.greenwich-wrapper__ampm {
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+.greenwich-wrapper__location-name {
+  margin-bottom: 20px;
+  position: relative;
+  font-family: "Almarai";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16.9px;
+  color: rgba(80, 79, 79, 1);
+}
+
+.greenwich-wrapper__location-name::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(99, 97, 97, 1);
+  height: 1px;
+}
+
+.greenwich-wrapper__country-name {
+  margin-bottom: 5px;
+  font-family: "Almarai";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.86px;
+}
+
+.greenwich-wrapper__data-wrapper {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: center;
+  color: rgba(99, 97, 97, 1);
+}
+
+.greenwich-wrapper__watch {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}

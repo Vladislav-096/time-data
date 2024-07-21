@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.main-title {
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+}
+
+.watches-container {
+  justify-content: center;
+}
